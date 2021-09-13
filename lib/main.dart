@@ -93,11 +93,11 @@ class _HomeState extends State<Home> {
       else if (imc < 30.0)
         _result += "Levemente acima do peso";
       else if (imc < 35.0)
-        _result += "Obesidade Grau I";
+        _result += "Obesidade de Grau I";
       else if (imc < 40.0)
-        _result += "Obesidade Grau II";
+        _result += "Obesidade de Grau II";
       else
-        _result += "Obesidade Grau IIII";
+        _result += "Obesidade de Grau IIII";
     });
   }
 
